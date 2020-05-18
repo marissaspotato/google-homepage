@@ -1,3 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: grey;
+}
+
+#foot {
+    background-color: lightgrey;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .logo {
     display: block;
     width: 290px;
@@ -5,4 +35,32 @@
     margin: auto;
     position:relative;
     top: 120px;
+}
+
+.search {
+    flex-shrink: 0;
+    display: block;
+    margin: 0 auto 0 auto;
+    max-width: 584px;
+    min-width: 410px;
+    border-radius: 22px;
+    box-sizing: border-box;
+    font-size: 16px;
+    position: relative;
+    height: 44px;
+    padding: 20px;
+}
+
+.search-box {
+    margin: 0 auto;
+    flex-shrink: 0;
+    display: block;
+    padding-top: 120px;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
 }
